@@ -3,7 +3,17 @@
 
 This repository contains an Arbitrum Stylus smart contract that implements a volatility calculation. The deployed instance is used to compute/serve volatility in order to determine the swap fee for a host Uniswap V4 Hook.
 
+Next steps:
+- automate submitting address to hook deployer (through build pipeline or onchain directory)
+- explore accessing an existing smart contract through the stylus smart contract
+- integrate the sdk for bridge, inbox and sequencer
+
 ## Key Commands for Ember
+
+### check
+```
+cargo stylus check
+```
 
 ### generate abi for typescript/ethers integration app:
 ```
